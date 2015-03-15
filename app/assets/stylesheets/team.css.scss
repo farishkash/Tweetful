@@ -1,6 +1,7 @@
 // Place all the styles related to the About controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
 .masthead-intro,
 .masthead-heading {
 	text-align: center;
@@ -19,12 +20,22 @@
 	
 	margin-top: -0.2em;
 }
-.info h2 {
+.bio h2,
+.bio h3 {
 	text-align: center;
 }
+.bio h3 {
+	color:black;
+}
 
-.info {
+.bio {
+font-family: Impact, Charcoal, sans-serif;
+	color:blue;
 	float: left;
 	width: 30%;
-	margin-left: 30px;
+	margin-left: 15px;
+	border: 2px dotted blue;
+	border-radius: 14px;
+	padding-left: 15px;
+
 }
